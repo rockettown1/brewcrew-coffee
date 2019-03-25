@@ -1,0 +1,235 @@
+.headblock {
+    font-size: 120%;
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    margin: 30px auto;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: lightseagreen;
+    
+    
+}
+
+.titleblock{
+    font-size: 300%;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.titleblock p{
+    margin: 0;
+}
+
+
+.namelistblock{
+    font-size: 120%;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: lightblue;
+    
+}
+
+
+
+.addDrinker{
+    margin-top: 20px;
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+
+.submitDrinker{
+    height: 35px;
+    margin-left: 20px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.nameblock{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    font-size: 80%;
+    min-height: 20px;
+    color: darkslateblue;
+    border-bottom: 2px solid lightskyblue;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.nameblock button{
+    height: 30px;
+    margin: auto 0;
+}
+
+
+
+
+@keyframes slide{
+    from {
+        transform: translateX(0px)
+    }
+    to {tranform: translateX(100px)
+    }
+}
+
+.animate {
+    animation: slide;
+    transition: all 1s ease-in-out;
+}
+
+.coffeeType {
+    height: 40px;
+    background-color: lightcoral;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 5px rgb(114, 64, 64);
+    
+    
+}
+
+.coffeeType:hover{
+    background-color: lightseagreen;
+    box-shadow: none;
+}
+
+.coffeeType p{
+    margin: 1px;
+   
+
+}
+
+.customType {
+    
+    height: 40px;
+    background-color: lightseagreen;
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    
+    
+    
+}
+
+.customType p{
+    margin: 5px;
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.sizesugar button{
+    margin: 0 5px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: lightcoral;
+    color: white;
+    width: 80px;
+    font-size: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgb(97, 64, 82);
+    
+}
+
+.customButtons{
+    margin-top: 50px;
+    width: 100px;
+   
+   
+}
+.iconBox{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    
+}
+
+.small{
+    height: 50px;
+}
+
+.medium{
+    height: 100px;
+}
+
+.large{
+    height: 150px;
+}
+
+.sugarBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.postSugar{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+.sugar{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.counter-score {
+    flex-grow: 1;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+    line-height: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.counter-action{
+    width: 50px;
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.buyer{
+    color: lightseagreen;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid lightseagreen;
+    background-color: white;
+    font-size: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.buyer:hover{
+    color: lightcoral;
+    border: 3px solid lightcoral;
+    
+}
+
+.buyer:focus{
+    outline: none;
+}
+
